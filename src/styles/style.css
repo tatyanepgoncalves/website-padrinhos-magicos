@@ -45,7 +45,7 @@ button {
   font-weight: 700;
   height: 8vh;
   width: 15vw;
-  transition: 0.5s;
+  transition: all 0.5s;
 }
 
 .btn-acessar:hover {
@@ -63,7 +63,7 @@ button {
   height: 8vh;
   width: 10vw;
   background: transparent;
-  transition: box-shadow 0.3s;
+  transition: all 0.5s;
 }
 
 .btn-entrar:hover {
