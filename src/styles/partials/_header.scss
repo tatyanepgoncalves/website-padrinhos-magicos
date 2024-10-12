@@ -1,0 +1,66 @@
+body {
+  background: $bg-black;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 92px;
+  padding-right: 72px;
+  height: 20vh;
+  
+  div {
+    width: 30vw;
+    height: 8vh;
+
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+button {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.logo {
+  img {
+    width: 15vw;
+  }
+}
+
+.btn-acessar {
+  border: none;
+  border-radius: 10px;
+  background: $btn-acessar;
+  color: #fff;
+  font-weight: 700;
+  height: 8vh;
+  width: 15vw;
+  transition: 0.5s;
+}
+
+.btn-acessar:hover {
+  box-shadow: 0 0 35px $btn-acessar;
+  border: 4px solid $btn-acessar;
+  background: transparent;
+  color: $btn-acessar;
+  transform: scale(1.1);
+}
+
+.btn-entrar {
+  border: 1px solid $text-btn;
+  border-radius: 10px;
+  color: $text-btn;
+  height: 8vh;
+  width: 10vw;
+  background: transparent;
+  transition: box-shadow 0.3s;
+}
+
+.btn-entrar:hover {
+  box-shadow: 0 0 35px $text-btn;
+  border: 4px solid $text-btn;
+  transform: scale(1.1);
+}
