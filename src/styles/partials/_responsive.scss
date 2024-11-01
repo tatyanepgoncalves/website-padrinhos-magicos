@@ -1,0 +1,162 @@
+@media (width <= 340px) {
+  header {
+    .container {
+      max-width: 25rem;
+      margin: 2rem auto;
+    }
+  }
+  
+  main {
+    .container {
+      max-width: 25rem;
+      margin: 0 auto 2rem;
+    }
+  }
+
+  footer {
+    .container {
+      max-width: 25rem;
+      margin: 2rem auto;
+    }
+  }
+}
+
+@media ( width >= 500px) and (width <= 1023px) {
+  header {
+    .container {
+      max-width: 60rem;
+      margin: 2rem auto;
+    }
+  }
+  
+  main {
+    .container {
+      max-width: 60rem;
+      margin: 0 auto 2rem;
+    }
+  }
+
+  .top {
+    .text {
+      h2 {
+        font-size: 2.7rem;
+      }
+
+      span {
+        font-size: 2.3rem;
+      }
+    }
+  }
+
+  .timmy {
+    width: 15vw;
+    margin-bottom: 3rem;
+  }
+
+  footer {
+    .container {
+      max-width: 60rem;
+      margin: 2rem auto;
+    }
+  }
+}
+
+
+@media (width >= 1024px) {
+  header {
+    .container {
+      max-width: 130rem;
+      margin: 2rem auto;
+    }
+  }
+  
+  .logo {
+    img {
+      width: 10vw;
+    }
+  }
+
+  .btns {
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+
+  main {
+    .container {
+      max-width: 130rem;
+      margin: 0 auto 2rem;
+    }
+  }
+
+  .top {
+    flex-direction: row;
+    margin-bottom: 2rem;
+
+    .text {
+      text-align: left;
+
+      h2 {
+        font-size: 2.8rem;
+      }
+
+      span {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .timmy {
+    width: 5vw;
+  }
+
+  .box {
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+  }
+
+  .box-item {
+    width: 15vw;
+    padding: 3rem 2rem;
+    border-radius: 1.5rem;
+  
+    img {
+      width: 100%;
+    }
+  
+  }
+
+  .text-box {
+    h3 {
+      font-size: 1.8rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.4;
+    }
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    .container {
+      max-width: 130rem;
+      width: 130rem;
+      margin: 2rem auto;
+      
+      .text {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+  }
+
+  .box-footer {
+    flex-direction: row;
+    gap: 1.3rem;
+  }
+}
